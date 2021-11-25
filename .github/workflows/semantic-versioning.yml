@@ -2,13 +2,14 @@ name: Semantic-version
 
 # Run the workflow when a Pull Request is opened or when changes are pushed to master
 on:
- push:
-  branches: [ main ]
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
 
 jobs:
  release:
-  # Only release on push to master
-  if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+  # Only release on push to main
+  if: github.event_name == 'push' && github.ref == 'refs/heads/main'
   runs-on: ubuntu-latest
   # Waits for test jobs to complete
   # needs: [test] // Removed as of now
