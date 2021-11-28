@@ -27,6 +27,7 @@
       {
         "assets": ["docs/CHANGELOG.md"]
       }
-    ]
+    ],
+    "preset": "angular"
   ]
 }
