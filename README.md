@@ -4,7 +4,7 @@ This is the start of a larger project, to make a smart 4l. This arduino project 
 
 ## workflows
 
-[![semantic-version]https://img.shields.io/github/workflow/status/LazyKeru/DigitalSpeed4L/Semantic-version?style=plastic)](https://github.com/LazyKeru/DigitalSpeed4L/actions/workflows/semantic-versioning.yml)
+[![semantic-version](https://img.shields.io/github/workflow/status/LazyKeru/DigitalSpeed4L/Semantic-version?style=plastic)](https://github.com/LazyKeru/DigitalSpeed4L/actions/workflows/semantic-versioning.yml)
 
 ## Commit convention :
 - build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
