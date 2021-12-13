@@ -1,4 +1,4 @@
-name: cpp-test-action
+name: Arduino-cpp-test-action
 
 on:
   push:
