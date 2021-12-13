@@ -15,8 +15,8 @@ jobs:
         # Model
         fqbn: arduino:mbed:nano33ble
         # Path for the sketches
-        sketch-paths:
-          - ./
+        #sketch-paths:
+        #  - ./
         # Libraries used
-        libraries:
-          -
+        #libraries:
+        #  -
