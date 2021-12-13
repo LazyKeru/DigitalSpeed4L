@@ -1,0 +1,22 @@
+name: Arduino-compile-check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: arduino/compile-sketches@v1
+      with:
+        # Model
+        fqbn: arduino:mbed:nano33ble
+        # Path for the sketches
+        sketch-paths:
+          - ./
+        # Libraries used
+        libraries:
+          - name: TM1637Display.h
