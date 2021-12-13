@@ -17,8 +17,8 @@ This is the start of a larger project, to make a smart 4l. This arduino project 
 - test: Adding missing tests or correcting existing tests
 
 ## To do :
-[ ] smooth out the scan (round up the number)
-[ ] send the data digitaly
-[ ] add schematics of the hardware
+- [ ] smooth out the scan (round up the number)
+- [ ] send the data digitaly
+- [ ] add schematics of the hardware
 
 [![semantic-release](https://img.shields.io/badge/semantic-release-e10079.svg?logo=semantic-release)](https://github.com/semantic-release/semantic-release)

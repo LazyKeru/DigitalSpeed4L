@@ -9,7 +9,7 @@ on:
 jobs:
  release:
   # Only release on push to main
-  if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+  if: (github.event_name == 'push' ||  github.event_name == 'pull_request') && github.ref == 'refs/heads/main'
   runs-on: ubuntu-latest
   # Waits for test jobs to complete
   # needs: [test] // Removed as of now
