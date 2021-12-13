@@ -4,11 +4,19 @@ This is the start of a larger project, to make a smart 4l. This arduino project 
 
 ## workflows
 
+### semantic-version
+
 [![semantic-version](https://img.shields.io/github/workflow/status/LazyKeru/DigitalSpeed4L/Semantic-version?style=plastic)](https://github.com/LazyKeru/DigitalSpeed4L/actions/workflows/semantic-versioning.yml)
+
+### Arduino-cpp-test-action
 
 [![Arduino-cpp-test-action](https://img.shields.io/github/workflow/status/LazyKeru/DigitalSpeed4L/Arduino-cpp-test-action?style=plastic)](https://github.com/LazyKeru/DigitalSpeed4L/actions/workflows/C-check.yml)
 
+### report-memory-usage
+
 [![report-memory-usage](https://img.shields.io/github/workflow/status/LazyKeru/DigitalSpeed4L/report-memory-usage?style=plastic)](https://github.com/LazyKeru/DigitalSpeed4L/actions/workflows/C-report-memory-usage.yml)
+
+### Arduino-compile-check
 
 [![Arduino-compile-check](https://img.shields.io/github/workflow/status/LazyKeru/DigitalSpeed4L/Arduino-compile-check?style=plastic)](https://github.com/LazyKeru/DigitalSpeed4L/actions/workflows/compile-sketches.yml)
 
