@@ -1,0 +1,12 @@
+name: report-memory-usage
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: arduino/report-size-deltas@v1
